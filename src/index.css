@@ -2,15 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 27px;
-  color: #6a6a6a;
-  font-weight: 400;
-  overflow-x: hidden !important;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {

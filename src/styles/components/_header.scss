@@ -1,0 +1,38 @@
+.header {
+  color: $color-fontNavbar;
+  .main-menu {
+    .navbar-nav {
+      .nav-link {
+        padding-left: 35px;
+        font-weight: 400;
+        opacity: 1;
+        z-index: 9999;
+        text-transform: capitalize;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+  .navbar-brand img{
+    width: $width-logo;
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        color: rgb(64, 64, 64);
+      }
+    }
+  }
+  .btco-hover-menu .collapse ul > li:hover > a,
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    background: transparent;
+    color: $color-main;
+  }
+  a {
+    cursor: pointer;
+  }
+}
